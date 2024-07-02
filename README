@@ -111,7 +111,7 @@
 
       #+RESULTS:
       : Archive:  main.zip
-      : 339f67ae4beab327f0f62dd8f50fe1e55f2bf559
+      : e9736298f43584576d296bfccc59231123a24d4e
       :  extracting: eglot-problem-description-main/.gitignore  
       :   inflating: eglot-problem-description-main/README  
       :   inflating: eglot-problem-description-main/init.el  
@@ -121,7 +121,7 @@
 
       #+begin_src bash :results none
         cd eglot-problem-description-main
-        emacs -Q -f package-initialize -l init.el
+        emacs -Q -f package-initialize -l init.el main.dart
       #+end_src
 
 7. Make sure to double check all the above elements and re-run the
