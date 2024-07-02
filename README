@@ -60,6 +60,503 @@ Server diagnostics:
 Run "dart help" to see global options.
 #+end_example
 
+#+begin_src bash :results output :exports both
+  diff \
+    <(jq -S 'def post_recurse(f): def r: (f | select(. != null) | r), .; r; def post_recurse: post_recurse(.[]?); (. | (post_recurse | arrays) |= sort)' "lsp_init_eglot.json") \
+    <(jq -S 'def post_recurse(f): def r: (f | select(. != null) | r), .; r; def post_recurse: post_recurse(.[]?); (. | (post_recurse | arrays) |= sort)' "lsp_init_vscode.json")
+#+end_src
+
+#+RESULTS:
+#+begin_example
+2c2,3
+<   "id": 1,
+---
+>   "clientRequestTime": 1719957377248,
+>   "id": 0,
+7c8,21
+<       "experimental": {},
+---
+>       "experimental": {
+>         "commands": [
+>           "dart.goToLocation"
+>         ],
+>         "dartCodeAction": {
+>           "commandParameterSupport": {
+>             "supportedKinds": [
+>               "saveUri"
+>             ]
+>           }
+>         },
+>         "snippetTextEdit": true,
+>         "supportsWindowShowMessageRequest": true
+>       },
+8a23,56
+>         "markdown": {
+>           "allowedTags": [
+>             "a",
+>             "blockquote",
+>             "br",
+>             "code",
+>             "del",
+>             "div",
+>             "em",
+>             "h1",
+>             "h2",
+>             "h3",
+>             "h4",
+>             "h5",
+>             "h6",
+>             "hr",
+>             "img",
+>             "li",
+>             "ol",
+>             "p",
+>             "pre",
+>             "span",
+>             "strong",
+>             "table",
+>             "tbody",
+>             "td",
+>             "th",
+>             "thead",
+>             "tr",
+>             "ul"
+>           ],
+>           "parser": "marked",
+>           "version": "1.1.0"
+>         },
+10,13c58,77
+<           "utf-16",
+<           "utf-32",
+<           "utf-8"
+<         ]
+---
+>           "utf-16"
+>         ],
+>         "regularExpressions": {
+>           "engine": "ECMAScript",
+>           "version": "ES2020"
+>         },
+>         "staleRequestSupport": {
+>           "cancel": true,
+>           "retryOnContentModified": [
+>             "textDocument/semanticTokens/full",
+>             "textDocument/semanticTokens/full/delta",
+>             "textDocument/semanticTokens/range"
+>           ]
+>         }
+>       },
+>       "notebookDocument": {
+>         "synchronization": {
+>           "dynamicRegistration": true,
+>           "executionSummarySupport": true
+>         }
+15a80,82
+>         "callHierarchy": {
+>           "dynamicRegistration": true
+>         },
+19a87
+>                 "",
+31c99,101
+<           "dynamicRegistration": false,
+---
+>           "disabledSupport": true,
+>           "dynamicRegistration": true,
+>           "honorsChangeAnnotations": false,
+35d104
+<               "command",
+39a109,114
+>         "codeLens": {
+>           "dynamicRegistration": true
+>         },
+>         "colorProvider": {
+>           "dynamicRegistration": true
+>         },
+41a117
+>             "commitCharactersSupport": true,
+42a119,131
+>             "documentationFormat": [
+>               "markdown",
+>               "plaintext"
+>             ],
+>             "insertReplaceSupport": true,
+>             "insertTextModeSupport": {
+>               "valueSet": [
+>                 1,
+>                 2
+>               ]
+>             },
+>             "labelDetailsSupport": true,
+>             "preselectSupport": true,
+46c135
+<                 "details",
+---
+>                 "detail",
+56a146,182
+>           "completionItemKind": {
+>             "valueSet": [
+>               1,
+>               2,
+>               3,
+>               4,
+>               5,
+>               6,
+>               7,
+>               8,
+>               9,
+>               10,
+>               11,
+>               12,
+>               13,
+>               14,
+>               15,
+>               16,
+>               17,
+>               18,
+>               19,
+>               20,
+>               21,
+>               22,
+>               23,
+>               24,
+>               25
+>             ]
+>           },
+>           "completionList": {
+>             "itemDefaults": [
+>               "commitCharacters",
+>               "editRange",
+>               "insertTextFormat",
+>               "insertTextMode"
+>             ]
+>           },
+58c184,185
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true,
+>           "insertTextMode": 2
+61c188
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+65c192
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+67a195,198
+>         "diagnostic": {
+>           "dynamicRegistration": true,
+>           "relatedDocumentSupport": false
+>         },
+69c200,204
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+>         },
+>         "documentLink": {
+>           "dynamicRegistration": true,
+>           "tooltipSupport": true
+72c207
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+73a209
+>           "labelSupport": true,
+102a239,243
+>           },
+>           "tagSupport": {
+>             "valueSet": [
+>               1
+>             ]
+104a246,260
+>         "foldingRange": {
+>           "dynamicRegistration": true,
+>           "foldingRange": {
+>             "collapsedText": false
+>           },
+>           "foldingRangeKind": {
+>             "valueSet": [
+>               "comment",
+>               "imports",
+>               "region"
+>             ]
+>           },
+>           "lineFoldingOnly": true,
+>           "rangeLimit": 5000
+>         },
+106c262
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+113c269
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+116c272
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+120c276,294
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true,
+>           "resolveSupport": {
+>             "properties": [
+>               "label.command",
+>               "label.location",
+>               "label.tooltip",
+>               "textEdits",
+>               "tooltip"
+>             ]
+>           }
+>         },
+>         "inlineValue": {
+>           "dynamicRegistration": true
+>         },
+>         "linkedEditingRange": {
+>           "dynamicRegistration": true
+>         },
+>         "onTypeFormatting": {
+>           "dynamicRegistration": true
+123,124c297,299
+<           "codeDescriptionSupport": false,
+<           "relatedInformation": false,
+---
+>           "codeDescriptionSupport": true,
+>           "dataSupport": true,
+>           "relatedInformation": true,
+130c305,306
+<           }
+---
+>           },
+>           "versionSupport": false
+133c309
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+136c312
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+139c315,374
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true,
+>           "honorsChangeAnnotations": true,
+>           "prepareSupport": true,
+>           "prepareSupportDefaultBehavior": 1
+>         },
+>         "selectionRange": {
+>           "dynamicRegistration": true
+>         },
+>         "semanticTokens": {
+>           "augmentsSyntaxTokens": true,
+>           "dynamicRegistration": true,
+>           "formats": [
+>             "relative"
+>           ],
+>           "multilineTokenSupport": false,
+>           "overlappingTokenSupport": false,
+>           "requests": {
+>             "full": {
+>               "delta": true
+>             },
+>             "range": true
+>           },
+>           "serverCancelSupport": true,
+>           "tokenModifiers": [
+>             "abstract",
+>             "async",
+>             "declaration",
+>             "defaultLibrary",
+>             "definition",
+>             "deprecated",
+>             "documentation",
+>             "modification",
+>             "readonly",
+>             "static"
+>           ],
+>           "tokenTypes": [
+>             "class",
+>             "comment",
+>             "decorator",
+>             "enum",
+>             "enumMember",
+>             "event",
+>             "function",
+>             "interface",
+>             "keyword",
+>             "macro",
+>             "method",
+>             "modifier",
+>             "namespace",
+>             "number",
+>             "operator",
+>             "parameter",
+>             "property",
+>             "regexp",
+>             "string",
+>             "struct",
+>             "type",
+>             "typeParameter",
+>             "variable"
+>           ]
+142c377,378
+<           "dynamicRegistration": false,
+---
+>           "contextSupport": true,
+>           "dynamicRegistration": true,
+156c392
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+161c397
+<           "dynamicRegistration": false,
+---
+>           "dynamicRegistration": true,
+162a399,401
+>         },
+>         "typeHierarchy": {
+>           "dynamicRegistration": true
+168a408,412
+>         "showMessage": {
+>           "messageActionItem": {
+>             "additionalPropertiesSupport": true
+>           }
+>         },
+172a417,419
+>         "codeLens": {
+>           "refreshSupport": true
+>         },
+174c421,424
+<         "didChangeWatchedFiles": {
+---
+>         "diagnostics": {
+>           "refreshSupport": true
+>         },
+>         "didChangeConfiguration": {
+176a427,430
+>         "didChangeWatchedFiles": {
+>           "dynamicRegistration": true,
+>           "relativePatternSupport": true
+>         },
+178c432,450
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true
+>         },
+>         "fileOperations": {
+>           "didCreate": true,
+>           "didDelete": true,
+>           "didRename": true,
+>           "dynamicRegistration": true,
+>           "willCreate": true,
+>           "willDelete": true,
+>           "willRename": true
+>         },
+>         "inlayHint": {
+>           "refreshSupport": true
+>         },
+>         "inlineValue": {
+>           "refreshSupport": true
+>         },
+>         "semanticTokens": {
+>           "refreshSupport": true
+181c453,493
+<           "dynamicRegistration": false
+---
+>           "dynamicRegistration": true,
+>           "resolveSupport": {
+>             "properties": [
+>               "location.range"
+>             ]
+>           },
+>           "symbolKind": {
+>             "valueSet": [
+>               1,
+>               2,
+>               3,
+>               4,
+>               5,
+>               6,
+>               7,
+>               8,
+>               9,
+>               10,
+>               11,
+>               12,
+>               13,
+>               14,
+>               15,
+>               16,
+>               17,
+>               18,
+>               19,
+>               20,
+>               21,
+>               22,
+>               23,
+>               24,
+>               25,
+>               26
+>             ]
+>           },
+>           "tagSupport": {
+>             "valueSet": [
+>               1
+>             ]
+>           }
+184c496,506
+<           "documentChanges": true
+---
+>           "changeAnnotationSupport": {
+>             "groupsOnLabel": true
+>           },
+>           "documentChanges": true,
+>           "failureHandling": "textOnlyTransactional",
+>           "normalizesLineEndings": true,
+>           "resourceOperations": [
+>             "create",
+>             "delete",
+>             "rename"
+>           ]
+190,191c512,513
+<       "name": "Eglot",
+<       "version": "1.17"
+---
+>       "name": "Visual Studio Code",
+>       "version": "1.90.2"
+193,202c515,531
+<     "initializationOptions": {},
+<     "processId": 147340,
+<     "rootPath": "/home/davidaventimiglia/Scratch/eglot-problem-description/",
+<     "rootUri": "file:///home/davidaventimiglia/Scratch/eglot-problem-description",
+<     "workspaceFolders": [
+<       {
+<         "name": "~/Scratch/eglot-problem-description/",
+<         "uri": "file:///home/davidaventimiglia/Scratch/eglot-problem-description"
+<       }
+<     ]
+---
+>     "initializationOptions": {
+>       "allowOpenUri": true,
+>       "appHost": "desktop",
+>       "closingLabels": true,
+>       "flutterOutline": false,
+>       "onlyAnalyzeProjectsWithOpenFiles": false,
+>       "outline": true,
+>       "previewSurveys": true,
+>       "suggestFromUnimportedLibraries": true,
+>       "useInEditorDartFixPrompt": false
+>     },
+>     "locale": "en",
+>     "processId": 301117,
+>     "rootPath": null,
+>     "rootUri": null,
+>     "trace": "off",
+>     "workspaceFolders": null
+#+end_example
+
 * Checklist
 
 1. Include the transcript of JSONRPC events obtained from the buffer
