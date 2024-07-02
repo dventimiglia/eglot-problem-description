@@ -19,7 +19,7 @@ buffer shows
 Restarting Eglot typically fixes it, though I then have to close the
 buffer and re-open the Dart file.
 
-**NOTE**:  In my experience, this only happens /sometimes/.
+*NOTE*:  In my experience, this only happens /sometimes/.
 
 * Checklist
 
