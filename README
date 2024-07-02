@@ -95,7 +95,7 @@ buffer and re-open the Dart file.
 
    - Answer :: dart-mode Version: 1.0.7; emacs Version: see below
 
-   #+begin_src elisp
+   #+begin_src elisp :exports both
      (emacs-version)
    #+end_src
 
