@@ -95,6 +95,8 @@
    setq and adding to hooks with add-hook. Prefer starting Eglot with
    M-x eglot.
 
+   - Answer :: see steps below.
+
    1. Download this repository.
 
       #+begin_src bash
@@ -111,17 +113,32 @@
 
       #+RESULTS:
       : Archive:  main.zip
-      : e9736298f43584576d296bfccc59231123a24d4e
+      : 59f5ff7d3293668d38037eafe169327bd75d0dcd
       :  extracting: eglot-problem-description-main/.gitignore  
       :   inflating: eglot-problem-description-main/README  
       :   inflating: eglot-problem-description-main/init.el  
       :  extracting: eglot-problem-description-main/main.dart  
 
-   3. Launch emacs.
+   3. Launch emacs with the Dart file.
 
       #+begin_src bash :results none
         cd eglot-problem-description-main
         emacs -Q -f package-initialize -l init.el main.dart
+      #+end_src
+
+   4. Wait approximately 10 seconds, then run ~eglot~ in the new Emacs
+      session.
+
+   5. Open the events buffer with ~m-x eglot-events-buffer~.
+
+   6. With a little luck, observe something like this at the end of
+      the events buffer.
+
+      #+begin_src json
+      [jsonrpc] i[07:42:09.464] [2] timed-out request ':textDocument/inlayHint'
+      [jsonrpc] i[07:42:09.967] [3] timed-out request ':textDocument/hover'
+      [jsonrpc] i[07:42:09.972] [4] timed-out request ':textDocument/documentHighlight'
+      [jsonrpc] i[07:42:09.972] [5] timed-out request ':textDocument/signatureHelp'
       #+end_src
 
 7. Make sure to double check all the above elements and re-run the
