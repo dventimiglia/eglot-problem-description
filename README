@@ -21,6 +21,45 @@ buffer and re-open the Dart file.
 
 *NOTE*:  In my experience, this only happens /sometimes/.
 
+*NOTE*:  Here's the usage for the Dart language server.
+
+#+begin_src bash :results output :exports both
+  dart language-server --help
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Start Dart's analysis server.
+
+This is a long-running process used to provide language services to IDEs and other tooling clients.
+
+It communicates over stdin and stdout and provides services like code completion, errors and warnings, and refactorings. This command is generally not user-facing but consumed by higher level tools.
+
+For more information about the server's capabilities and configuration, see:
+
+  https://github.com/dart-lang/sdk/tree/main/pkg/analysis_server
+
+Usage: dart language-server [arguments]
+    --client-id=<name>                    An identifier for the analysis server client.
+    --client-version=<version>            The version of the analysis server client.
+    --dart-sdk=<path>                     Override the Dart SDK to use for analysis.
+    --cache=<path>                        Override the location of the analysis server's cache.
+    --packages=<path>                     The path to the package resolution configuration file, which supplies a mapping of package names
+                                          into paths.
+    --protocol=<protocol>                 Specify the protocol to use to communicate with the analysis server.
+
+          [analyzer]                      Dart's analysis server protocol (https://dart.dev/go/analysis-server-protocol)
+          [lsp] (default)                 The Language Server Protocol (https://microsoft.github.io/language-server-protocol)
+
+Server diagnostics:
+    --protocol-traffic-log=<file path>    Write server protocol traffic to the given file.
+    --analysis-driver-log=<file path>     Write analysis driver diagnostic data to the given file.
+    --diagnostic-port=<port>              Serve a web UI for status and performance data on the given port.
+-h, --help                                Print this usage information.
+
+Run "dart help" to see global options.
+#+end_example
+
 * Checklist
 
 1. Include the transcript of JSONRPC events obtained from the buffer
@@ -161,7 +200,7 @@ buffer and re-open the Dart file.
 
       #+RESULTS:
       : Archive:  main.zip
-      : 59f5ff7d3293668d38037eafe169327bd75d0dcd
+      : 09c05eea9f1a106676f8b8eb1d1800f02522a352
       :  extracting: eglot-problem-description-main/.gitignore  
       :   inflating: eglot-problem-description-main/README  
       :   inflating: eglot-problem-description-main/init.el  

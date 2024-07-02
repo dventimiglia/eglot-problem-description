@@ -1,2 +1,5 @@
 main.zip
 eglot-problem-description-main/
+protocol-traffic.log
+*.log
+*.log.*
