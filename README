@@ -60,6 +60,9 @@ Server diagnostics:
 Run "dart help" to see global options.
 #+end_example
 
+*NOTE*: Here's a diff between the way Eglot initializes the language
+server (top) and the way VSCode initializes the language server.
+
 #+begin_src bash :results output :exports both
   diff \
     <(jq -S 'def post_recurse(f): def r: (f | select(. != null) | r), .; r; def post_recurse: post_recurse(.[]?); (. | (post_recurse | arrays) |= sort)' "lsp_init_eglot.json") \
