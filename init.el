@@ -7,3 +7,5 @@
 			      "--client-id" "emacs.eglot-dart"
 			      "--protocol-traffic-log=/dev/stderr"
 			      ))))
+
+(setq jsonrpc-default-request-timeout 30)
