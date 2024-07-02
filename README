@@ -703,12 +703,18 @@ server (top) and the way VSCode initializes the language server.
       #+end_src
 
       #+RESULTS:
-      : Archive:  main.zip
-      : 09c05eea9f1a106676f8b8eb1d1800f02522a352
-      :  extracting: eglot-problem-description-main/.gitignore  
-      :   inflating: eglot-problem-description-main/README  
-      :   inflating: eglot-problem-description-main/init.el  
-      :  extracting: eglot-problem-description-main/main.dart  
+      #+begin_example
+      Archive:  main.zip
+      b293c363d82500ffa86890ebd2d0d2948a877722
+        inflating: eglot-problem-description-main/.gitignore  
+        inflating: eglot-problem-description-main/Dart-Code-Log-2024-06-02 14-14-17.txt  
+        inflating: eglot-problem-description-main/README  
+        inflating: eglot-problem-description-main/init.el  
+        inflating: eglot-problem-description-main/lsp_init_eglot.json  
+        inflating: eglot-problem-description-main/lsp_init_vscode.json  
+        inflating: eglot-problem-description-main/main.dart  
+        inflating: eglot-problem-description-main/protocol.log  
+      #+end_example
 
    3. Launch emacs with the Dart file.
 
