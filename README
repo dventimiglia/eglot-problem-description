@@ -98,7 +98,7 @@
    1. Download this repository.
 
       #+begin_src bash
-        wget https://github.com/dventimiglia/eglot-problem-description/archive/refs/heads/main.zip
+        wget -O main.zip https://github.com/dventimiglia/eglot-problem-description/archive/refs/heads/main.zip
       #+end_src
 
       #+RESULTS:
@@ -111,7 +111,8 @@
 
       #+RESULTS:
       : Archive:  main.zip
-      : abf1e08e0179b4a3bb6b99e918943ba908061032
+      : 339f67ae4beab327f0f62dd8f50fe1e55f2bf559
+      :  extracting: eglot-problem-description-main/.gitignore  
       :   inflating: eglot-problem-description-main/README  
       :   inflating: eglot-problem-description-main/init.el  
       :  extracting: eglot-problem-description-main/main.dart  
@@ -119,10 +120,9 @@
    3. Launch emacs.
 
       #+begin_src bash :results none
-        emacs -Q -f package-initialize -l eglot-problem-description-main/init.el
+        cd eglot-problem-description-main
+        emacs -Q -f package-initialize -l init.el
       #+end_src
-
-   
 
 7. Make sure to double check all the above elements and re-run the
    recipe to see that the problem is reproducible. Following the
