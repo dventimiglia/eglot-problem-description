@@ -71,8 +71,6 @@ buffer and re-open the Dart file.
    - Answer :: Follow the instructions to [[https://dart.dev/get-dart#install][Install the Dart SDK]] for
      your OS.
 
-     
-
 4. Describe how to setup a minimal project directory where Eglot
    should be started for the problem to happen. Describe each file’s
    name and its contents. Alternatively, you can supply the address of
