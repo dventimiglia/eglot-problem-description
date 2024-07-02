@@ -21,6 +21,8 @@ buffer and re-open the Dart file.
 
 *NOTE*:  In my experience, this only happens /sometimes/.
 
+** Dart Language Server usage
+
 *NOTE*:  Here's the usage for the Dart language server.
 
 #+begin_src bash :results output :exports both
@@ -59,6 +61,8 @@ Server diagnostics:
 
 Run "dart help" to see global options.
 #+end_example
+
+** Diffing language server initialization between Eglot and VSCode.
 
 *NOTE*: Here's a diff between the way Eglot initializes the language
 server (top) and the way VSCode initializes the language server.
