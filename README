@@ -705,7 +705,7 @@ server (top) and the way VSCode initializes the language server.
       #+RESULTS:
       #+begin_example
       Archive:  main.zip
-      b293c363d82500ffa86890ebd2d0d2948a877722
+      8efc6f91c0f3869994fe10cca958ce10d1f00b50
         inflating: eglot-problem-description-main/.gitignore  
         inflating: eglot-problem-description-main/Dart-Code-Log-2024-06-02 14-14-17.txt  
         inflating: eglot-problem-description-main/README  
