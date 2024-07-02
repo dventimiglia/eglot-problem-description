@@ -1,0 +1,689 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.92.0
+
+App: Visual Studio Code
+App Host: desktop
+Version: linux 1.90.2
+
+Workspace type: Unknown (Dart SDK) (LSP)
+
+Dart (3.4.4): /usr/lib/dart
+Flutter (undefined): undefined (No device)
+
+
+Logging Categories:
+    General, Analyzer
+
+Tue Jul 02 2024 [14:14:17 GMT-0700 (Pacific Daylight Time)] Log file started
+[2:14:17 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:17 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":14,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954857321}
+[2:14:17 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:17 PM] [Analyzer] [Info] <== {"id":14,"jsonrpc":"2.0","result":[]}
+[2:14:19 PM] [Analyzer] [Info] ==> Content-Length: 326
+[2:14:19 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":15,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":3,"character":25},"end":{"line":3,"character":25}},"context":{"diagnostics":[],"triggerKind":2}},"clientRequestTime":1719954859547}
+[2:14:19 PM] [Analyzer] [Info] <== Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:19 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:19 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":16,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954859552}
+[2:14:19 PM] [Analyzer] [Info] <== {"id":7,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:19 PM] [Analyzer] [Info] <== Content-Length: 740
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":15,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"}]}Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":16,"jsonrpc":"2.0","result":[]}
+[2:14:19 PM] [Analyzer] [Info] ==> Content-Length: 72
+[2:14:19 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":7,"result":null,"clientRequestTime":1719954859555}
+[2:14:19 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:19 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 335
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":2},"contentChanges":[{"range":{"start":{"line":3,"character":25},"end":{"line":3,"character":25}},"rangeLength":0,"text":"\n  "}]},"clientRequestTime":1719954860599}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":8,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 72
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":8,"result":null,"clientRequestTime":1719954860607}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":17,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954860798}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":17,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 324
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":18,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":2}},"context":{"diagnostics":[],"triggerKind":2}},"clientRequestTime":1719954860850}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":9,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 740
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":18,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"}]}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 72
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":9,"result":null,"clientRequestTime":1719954860854}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":19,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954860861}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":19,"jsonrpc":"2.0","result":[]}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":20,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954860896}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 139
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":20,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0]}}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":21,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954860947}
+[2:14:20 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:20 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":22,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954860947}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":21,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:20 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:20 PM] [Analyzer] [Info] <== {"id":22,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 330
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":3},"contentChanges":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":2}},"rangeLength":0,"text":"p"}]},"clientRequestTime":1719954861191}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":10,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 650
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":3,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"},{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'p'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":3,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":10,"result":null,"clientRequestTime":1719954861204}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 269
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":23,"method":"textDocument/completion","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":3},"context":{"triggerKind":1}},"clientRequestTime":1719954861207}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 330
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":4},"contentChanges":[{"range":{"start":{"line":4,"character":3},"end":{"line":4,"character":3}},"rangeLength":0,"text":"r"}]},"clientRequestTime":1719954861283}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":11,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":11,"result":null,"clientRequestTime":1719954861309}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 330
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":5},"contentChanges":[{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":4}},"rangeLength":0,"text":"i"}]},"clientRequestTime":1719954861355}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 17749
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":23,"jsonrpc":"2.0","result":{"isIncomplete":true,"itemDefaults":{"editRange":{"end":{"character":3,"line":4},"start":{"character":2,"line":4}},"insertTextMode":1},"items":[{"documentation":{"kind":"markdown","value":"A hint to tools.\n\nTools that work with Dart programs may accept hints to guide their behavior\nas `pragma` annotations on declarations.\nEach tool decides which hints it accepts, what they mean, and whether and\nhow they apply to sub-parts of the annotated entity.\n\nTools that recognize pragma hints should pick a pragma prefix to identify\nthe tool. They should recognize any hint with a [name] starting with their\nprefix followed by `:` as if it was intended for that tool. A hint with a\nprefix for another tool should be ignored (unless compatibility with that\nother tool is a goal).\n\nA tool may recognize unprefixed names as well, if they would recognize that\nname with their own prefix in front.\n\nIf the hint can be parameterized,\nan extra [options] object can be added as well.\n\nFor example:\n\n```dart:top\n@pragma('Tool:pragma-name', [param1, param2, ...])\nclass Foo { }\n\n@pragma('OtherTool:other-pragma')\nvoid foo() { }\n```\n\nHere class `Foo` is annotated with a Tool specific pragma 'pragma-name' and\nfunction `foo` is annotated with a pragma 'other-pragma'\nspecific to OtherTool."},"kind":7,"label":"pragma","sortText":"9477"},{"detail":"(String name, [Object? options]) → pragma","documentation":{"kind":"markdown","value":"Creates a hint named [name] with optional [options]."},"insertTextFormat":2,"kind":4,"label":"pragma","labelDetails":{"detail":"(…) → pragma"},"sortText":"9499","textEditText":"pragma(${0:name})"},{"documentation":{"kind":"markdown","value":"An interface for basic searches within strings."},"kind":7,"label":"Pattern","sortText":"9477"},{"detail":"(Object? object) → void","documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"insertTextFormat":2,"kind":3,"label":"print","labelDetails":{"detail":"(…) → void"},"sortText":"9486","textEditText":"print(${0:object})"},{"detail":"(Duration period, [T Function(int)? computation]) → Stream<T>","documentation":{"kind":"markdown","value":"Creates a stream that repeatedly emits events at [period] intervals.\n\nThe event values are computed by invoking [computation]. The argument to\nthis callback is an integer that starts with 0 and is incremented for\nevery event.\n\nThe [period] must be a non-negative [Duration].\n\nIf [computation] is omitted, the event values will all be `null`.\n\nThe [computation] must not be omitted if the event type [T] does not\nallow `null` as a value.\n\nExample:\n```dart\nfinal stream =\n    Stream<int>.periodic(const Duration(\n        seconds: 1), (count) => count * count).take(5);\n\nstream.forEach(print); // Outputs event values 0,1,4,9,16.\n```"},"insertTextFormat":2,"kind":4,"label":"Stream.periodic","labelDetails":{"detail":"(…) → Stream<T>"},"sortText":"9499","textEditText":"Stream.periodic(${0:period})"},{"documentation":{"kind":"markdown","value":"Error thrown when waiting for multiple futures, when some have errors.\n\nThe [V] and [E] types will have the same basic shape as the\noriginal collection of futures that was waited on.\n\nFor example, if the original awaited futures were a record\n`(Future<T1>, ..., Future<Tn>)`,\nthe type `V` will be `(T1?, ..., Tn?)` which allows keeping the\nvalues of futures that completed with a value,\nand `E` will be `(AsyncError?, ..., AsyncError?)`, also with *n*\nfields, which can contain the errors for the futures which completed\nwith an error.\n\nWaiting for a list or iterable of futures should provide\na list of nullable values and errors of the same length."},"kind":7,"label":"ParallelWaitError","sortText":"9477"},{"detail":"(V values, E errors, {int? errorCount, AsyncError? defaultError}) → ParallelWaitError<V, E>","documentation":{"kind":"markdown","value":"Creates error with the provided [values] and [errors].\n\nIf [defaultError] is provided, its [AsyncError.error] is used in\nthe [toString] of this parallel error, and its [AsyncError.stackTrace]\nis returned by [stackTrace].\n\nIf [errorCount] is provided, and it's greater than one,\nthe number is reported in the [toString]."},"insertTextFormat":2,"kind":4,"label":"ParallelWaitError","labelDetails":{"detail":"(…) → ParallelWaitError<V, E>"},"sortText":"9499","textEditText":"ParallelWaitError(${1:values}, ${2:errors})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/timer.dart;Timer;periodic"},"detail":"(Duration duration, void Function(Timer) callback) → Timer","insertTextFormat":2,"kind":4,"label":"Timer.periodic","labelDetails":{"description":"dart:async","detail":"(…) → Timer"},"sortText":"9555","textEditText":"Timer.periodic(${1:duration}, ${2:callback})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/zone.dart;CreatePeriodicTimerHandler"},"detail":"(Zone self, ZoneDelegate parent, Zone zone, Duration period, void Function(Timer) f) → Timer","label":"CreatePeriodicTimerHandler","labelDetails":{"description":"dart:async","detail":"(…) → Timer"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/zone.dart;PrintHandler"},"detail":"(Zone self, ZoneDelegate parent, Zone zone, String line) → void","label":"PrintHandler","labelDetails":{"description":"dart:async","detail":"(…) → void"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math;pi"},"detail":"double","kind":6,"label":"pi","labelDetails":{"description":"dart:math","detail":" double"},"sortText":"9551"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math;pow"},"detail":"(num x, num exponent) → num","insertTextFormat":2,"kind":3,"label":"pow","labelDetails":{"description":"dart:math","detail":"(…) → num"},"sortText":"9541","textEditText":"pow(${1:x}, ${2:exponent})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math/point.dart;Point"},"kind":7,"label":"Point","labelDetails":{"description":"dart:math"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math/point.dart;Point;"},"detail":"(T x, T y) → Point<T>","insertTextFormat":2,"kind":4,"label":"Point","labelDetails":{"description":"dart:math","detail":"(…) → Point<T>"},"sortText":"9555","textEditText":"Point(${1:x}, ${2:y})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math/rectangle.dart;Rectangle;fromPoints"},"detail":"(Point<T> a, Point<T> b) → Rectangle<T>","insertTextFormat":2,"kind":4,"label":"Rectangle.fromPoints","labelDetails":{"description":"dart:math","detail":"(…) → Rectangle<T>"},"sortText":"9555","textEditText":"Rectangle.fromPoints(${1:a}, ${2:b})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:math"],"ref":"dart:math;dart:math/rectangle.dart;MutableRectangle;fromPoints"},"detail":"(Point<T> a, Point<T> b) → MutableRectangle<T>","insertTextFormat":2,"kind":4,"label":"MutableRectangle.fromPoints","labelDetails":{"description":"dart:math","detail":"(…) → MutableRectangle<T>"},"sortText":"9555","textEditText":"MutableRectangle.fromPoints(${1:a}, ${2:b})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/extension.dart;postEvent"},"detail":"(String eventKind, Map<dynamic, dynamic> eventData, {String stream = 'Extension'}) → void","insertTextFormat":2,"kind":3,"label":"postEvent","labelDetails":{"description":"dart:developer","detail":"(…) → void"},"sortText":"9541","textEditText":"postEvent(${1:eventKind}, ${2:eventData})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/http_profiling.dart;addHttpClientProfilingData"},"detail":"(Map<String, dynamic> requestProfile) → void","insertTextFormat":2,"kind":3,"label":"addHttpClientProfilingData","labelDetails":{"description":"dart:developer","detail":"(…) → void"},"sortText":"9541","textEditText":"addHttpClientProfilingData(${0:requestProfile})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/http_profiling.dart;getHttpClientProfilingData"},"detail":"() → List<Map<String, dynamic>>","insertTextFormat":2,"kind":3,"label":"getHttpClientProfilingData","labelDetails":{"description":"dart:developer","detail":"() → List<Map<String, dynamic>>"},"sortText":"9541","textEditText":"getHttpClientProfilingData()"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/service.dart;ServiceProtocolInfo"},"kind":7,"label":"ServiceProtocolInfo","labelDetails":{"description":"dart:developer"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/service.dart;ServiceProtocolInfo;"},"detail":"(Uri? serverUri) → ServiceProtocolInfo","insertTextFormat":2,"kind":4,"label":"ServiceProtocolInfo","labelDetails":{"description":"dart:developer","detail":"(…) → ServiceProtocolInfo"},"sortText":"9555","textEditText":"ServiceProtocolInfo(${0:serverUri})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Pointer"},"kind":7,"label":"Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Pointer;fromAddress"},"detail":"(int ptr) → Pointer<T>","insertTextFormat":2,"kind":4,"label":"Pointer.fromAddress","labelDetails":{"description":"dart:ffi","detail":"(…) → Pointer<T>"},"sortText":"9555","textEditText":"Pointer.fromAddress(${0:ptr})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;NativeFunctionPointer"},"label":"NativeFunctionPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Int8Pointer"},"label":"Int8Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Int16Pointer"},"label":"Int16Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Int32Pointer"},"label":"Int32Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Int64Pointer"},"label":"Int64Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Uint8Pointer"},"label":"Uint8Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Uint16Pointer"},"label":"Uint16Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Uint32Pointer"},"label":"Uint32Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;Uint64Pointer"},"label":"Uint64Pointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;FloatPointer"},"label":"FloatPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;DoublePointer"},"label":"DoublePointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;BoolPointer"},"label":"BoolPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;PointerPointer"},"label":"PointerPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;StructPointer"},"label":"StructPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;UnionPointer"},"label":"UnionPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;AbiSpecificIntegerPointer"},"label":"AbiSpecificIntegerPointer","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;PointerArray"},"label":"PointerArray","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi;NativePort"},"label":"NativePort","labelDetails":{"description":"dart:ffi"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/c_type.dart;IntPtr"},"kind":7,"label":"IntPtr","labelDetails":{"description":"dart:ffi"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/c_type.dart;IntPtr;"},"detail":"() → IntPtr","insertTextFormat":2,"kind":4,"label":"IntPtr","labelDetails":{"description":"dart:ffi","detail":"() → IntPtr"},"sortText":"9555","textEditText":"IntPtr()"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/c_type.dart;UintPtr"},"kind":7,"label":"UintPtr","labelDetails":{"description":"dart:ffi"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/c_type.dart;UintPtr;"},"detail":"() → UintPtr","insertTextFormat":2,"kind":4,"label":"UintPtr","labelDetails":{"description":"dart:ffi","detail":"() → UintPtr"},"sortText":"9555","textEditText":"UintPtr()"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/dynamic_library.dart;DynamicLibrary;process"},"detail":"() → DynamicLibrary","insertTextFormat":2,"kind":4,"label":"DynamicLibrary.process","labelDetails":{"description":"dart:ffi","detail":"() → DynamicLibrary"},"sortText":"9555","textEditText":"DynamicLibrary.process()"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/struct.dart;Packed"},"kind":7,"label":"Packed","labelDetails":{"description":"dart:ffi"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:ffi"],"ref":"dart:ffi;dart:ffi/struct.dart;Packed;"},"detail":"(int memberAlignment) → Packed","insertTextFormat":2,"kind":4,"label":"Packed","labelDetails":{"description":"dart:ffi","detail":"(…) → Packed"},"sortText":"9555","textEditText":"Packed(${0:memberAlignment})"}]}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 652
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":5,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"},{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'pri'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":5,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 269
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":24,"method":"textDocument/completion","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":5},"context":{"triggerKind":3}},"clientRequestTime":1719954861404}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":12,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":12,"result":null,"clientRequestTime":1719954861428}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 8565
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":24,"jsonrpc":"2.0","result":{"isIncomplete":false,"itemDefaults":{"editRange":{"end":{"character":5,"line":4},"start":{"character":2,"line":4}},"insertTextMode":1},"items":[{"detail":"(Object? object) → void","documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"insertTextFormat":2,"kind":3,"label":"print","labelDetails":{"detail":"(…) → void"},"sortText":"9486","textEditText":"print(${0:object})"},{"detail":"(Duration period, [T Function(int)? computation]) → Stream<T>","documentation":{"kind":"markdown","value":"Creates a stream that repeatedly emits events at [period] intervals.\n\nThe event values are computed by invoking [computation]. The argument to\nthis callback is an integer that starts with 0 and is incremented for\nevery event.\n\nThe [period] must be a non-negative [Duration].\n\nIf [computation] is omitted, the event values will all be `null`.\n\nThe [computation] must not be omitted if the event type [T] does not\nallow `null` as a value.\n\nExample:\n```dart\nfinal stream =\n    Stream<int>.periodic(const Duration(\n        seconds: 1), (count) => count * count).take(5);\n\nstream.forEach(print); // Outputs event values 0,1,4,9,16.\n```"},"insertTextFormat":2,"kind":4,"label":"Stream.periodic","labelDetails":{"detail":"(…) → Stream<T>"},"sortText":"9499","textEditText":"Stream.periodic(${0:period})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/timer.dart;Timer;periodic"},"detail":"(Duration duration, void Function(Timer) callback) → Timer","insertTextFormat":2,"kind":4,"label":"Timer.periodic","labelDetails":{"description":"dart:async","detail":"(…) → Timer"},"sortText":"9555","textEditText":"Timer.periodic(${1:duration}, ${2:callback})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/zone.dart;CreatePeriodicTimerHandler"},"detail":"(Zone self, ZoneDelegate parent, Zone zone, Duration period, void Function(Timer) f) → Timer","label":"CreatePeriodicTimerHandler","labelDetails":{"description":"dart:async","detail":"(…) → Timer"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:async"],"ref":"dart:async;dart:async/zone.dart;PrintHandler"},"detail":"(Zone self, ZoneDelegate parent, Zone zone, String line) → void","label":"PrintHandler","labelDetails":{"description":"dart:async","detail":"(…) → void"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/http_profiling.dart;addHttpClientProfilingData"},"detail":"(Map<String, dynamic> requestProfile) → void","insertTextFormat":2,"kind":3,"label":"addHttpClientProfilingData","labelDetails":{"description":"dart:developer","detail":"(…) → void"},"sortText":"9541","textEditText":"addHttpClientProfilingData(${0:requestProfile})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/http_profiling.dart;getHttpClientProfilingData"},"detail":"() → List<Map<String, dynamic>>","insertTextFormat":2,"kind":3,"label":"getHttpClientProfilingData","labelDetails":{"description":"dart:developer","detail":"() → List<Map<String, dynamic>>"},"sortText":"9541","textEditText":"getHttpClientProfilingData()"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/service.dart;ServiceProtocolInfo"},"kind":7,"label":"ServiceProtocolInfo","labelDetails":{"description":"dart:developer"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:developer"],"ref":"dart:developer;dart:developer/service.dart;ServiceProtocolInfo;"},"detail":"(Uri? serverUri) → ServiceProtocolInfo","insertTextFormat":2,"kind":4,"label":"ServiceProtocolInfo","labelDetails":{"description":"dart:developer","detail":"(…) → ServiceProtocolInfo"},"sortText":"9555","textEditText":"ServiceProtocolInfo(${0:serverUri})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:html_common"],"ref":"dart:html_common;dart:html_common/conversions_dart2js.dart;isJavaScriptPromise"},"detail":"(dynamic value) → bool","insertTextFormat":2,"kind":3,"label":"isJavaScriptPromise","labelDetails":{"description":"dart:html_common","detail":"(…) → bool"},"sortText":"9541","textEditText":"isJavaScriptPromise(${0:value})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:html_common"],"ref":"dart:js_util;dart:js_util;promiseToFuture"},"detail":"(Object jsPromise) → Future<T>","insertTextFormat":2,"kind":3,"label":"promiseToFuture","labelDetails":{"description":"dart:html_common","detail":"(…) → Future<T>"},"sortText":"9541","textEditText":"promiseToFuture(${0:jsPromise})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:io"],"ref":"dart:io;dart:io/process.dart;ProcessInfo"},"kind":7,"label":"ProcessInfo","labelDetails":{"description":"dart:io"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:io"],"ref":"dart:io;dart:io/process.dart;ProcessSignal"},"kind":7,"label":"ProcessSignal","labelDetails":{"description":"dart:io"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:io"],"ref":"dart:io;dart:io/process.dart;ProcessException"},"kind":7,"label":"ProcessException","labelDetails":{"description":"dart:io"},"sortText":"9532"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:io"],"ref":"dart:io;dart:io/process.dart;ProcessException;"},"detail":"(String executable, List<String> arguments, [String message = \"\", int errorCode = 0]) → ProcessException","insertTextFormat":2,"kind":4,"label":"ProcessException","labelDetails":{"description":"dart:io","detail":"(…) → ProcessException"},"sortText":"9555","textEditText":"ProcessException(${1:executable}, ${2:arguments})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:isolate"],"ref":"dart:isolate;dart:isolate;ReceivePort;fromRawReceivePort"},"detail":"(RawReceivePort rawPort) → ReceivePort","insertTextFormat":2,"kind":4,"label":"ReceivePort.fromRawReceivePort","labelDetails":{"description":"dart:isolate","detail":"(…) → ReceivePort"},"sortText":"9555","textEditText":"ReceivePort.fromRawReceivePort(${0:rawPort})"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:js_interop"],"ref":"dart:js_interop;dart:js_interop;JSPromise"},"label":"JSPromise","labelDetails":{"description":"dart:js_interop"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:js_interop"],"ref":"dart:js_interop;dart:js_interop;JSPromiseToFuture"},"label":"JSPromiseToFuture","labelDetails":{"description":"dart:js_interop"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:js_interop"],"ref":"dart:js_interop;dart:js_interop;FutureOfJSAnyToJSPromise"},"label":"FutureOfJSAnyToJSPromise","labelDetails":{"description":"dart:js_interop"},"sortText":"9555"},{"data":{"file":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","importUris":["dart:js_interop"],"ref":"dart:js_interop;dart:js_interop;FutureOfVoidToJSPromise"},"label":"FutureOfVoidToJSPromise","labelDetails":{"description":"dart:js_interop"},"sortText":"9555"}]}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 1062
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":25,"method":"completionItem/resolve","params":{"label":"print","labelDetails":{"detail":"(…) → void"},"detail":"(Object? object) → void","documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"insertTextFormat":2,"textEdit":{"newText":"print(${0:object})","range":{"start":{"line":4,"character":2},"end":{"line":4,"character":5}}},"kind":3,"sortText":"9486","command":{"title":"Suggest","command":"editor.action.triggerParameterHints"},"insertTextMode":1},"clientRequestTime":1719954861484}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 994
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":25,"jsonrpc":"2.0","result":{"command":{"command":"editor.action.triggerParameterHints","title":"Suggest"},"detail":"(Object? object) → void","documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"insertTextFormat":2,"insertTextMode":1,"kind":3,"label":"print","labelDetails":{"detail":"(…) → void"},"sortText":"9486","textEdit":{"newText":"print(${0:object})","range":{"end":{"character":5,"line":4},"start":{"character":2,"line":4}}}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":26,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861489}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 150
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":26,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,3,10,0]}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 330
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":6},"contentChanges":[{"range":{"start":{"line":4,"character":5},"end":{"line":4,"character":5}},"rangeLength":0,"text":"n"}]},"clientRequestTime":1719954861501}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":13,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 653
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":6,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"},{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'prin'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":6,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":13,"result":null,"clientRequestTime":1719954861506}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 330
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":7},"contentChanges":[{"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":6}},"rangeLength":0,"text":"t"}]},"clientRequestTime":1719954861581}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":14,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 333
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":7,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":14,"result":null,"clientRequestTime":1719954861586}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 208
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":27,"method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861599}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":27,"jsonrpc":"2.0","result":[]}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":28,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861781}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":28,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":29,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861801}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 150
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":29,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0]}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 486
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":30,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":7},"end":{"line":4,"character":7}},"context":{"diagnostics":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":7}},"message":"Expected to find ';'.","code":"expected_token","severity":1,"source":"dart"}],"triggerKind":2}},"clientRequestTime":1719954861840}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":31,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861840}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":15,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":15,"result":null,"clientRequestTime":1719954861857}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":31,"jsonrpc":"2.0","result":[]}Content-Length: 2054
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":30,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"},{"command":{"arguments":[{"action":"dart.fix.insertSemicolon"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":7,"line":4},"start":{"character":2,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"newText":";","range":{"end":{"character":7,"line":4},"start":{"character":7,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":7}}]},"kind":"quickfix.insertSemicolon","title":"Insert ';'"},{"command":{"arguments":[{"action":"dart.assist.assignToVariable"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[],"edit":{"documentChanges":[{"edits":[{"insertTextFormat":2,"newText":"var ${0:print} = ","range":{"end":{"character":2,"line":4},"start":{"character":2,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":7}}]},"kind":"refactor.assignToVariable","title":"Assign value to new local variable"},{"command":{"arguments":["INLINE_METHOD","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",7,99,0,null],"command":"refactor.perform","title":"Inline Method"},"kind":"refactor.inline","title":"Inline Method"}]}Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 342
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":8},"contentChanges":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":7}},"rangeLength":5,"text":"print(object)"}]},"clientRequestTime":1719954861917}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":16,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 658
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":15,"line":4},"start":{"character":14,"line":4}},"severity":1,"source":"dart"},{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'object'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":14,"line":4},"start":{"character":8,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 293
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":32,"method":"textDocument/signatureHelp","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":14},"context":{"isRetrigger":false,"triggerKind":1}},"clientRequestTime":1719954861921}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":16,"result":null,"clientRequestTime":1719954861922}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 767
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":32,"jsonrpc":"2.0","result":{"activeParameter":-1,"activeSignature":0,"signatures":[{"documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}]}}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:21 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:21 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":33,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954861947}
+[2:14:21 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:21 PM] [Analyzer] [Info] <== {"id":33,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":34,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862118}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:22 PM] [Analyzer] [Info] <== {"id":34,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 812
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":35,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":8},"end":{"line":4,"character":14}},"context":{"diagnostics":[{"range":{"start":{"line":4,"character":14},"end":{"line":4,"character":15}},"message":"Expected to find ';'.","code":"expected_token","severity":1,"source":"dart"},{"range":{"start":{"line":4,"character":8},"end":{"line":4,"character":14}},"message":"Undefined name 'object'.\nTry correcting the name to one that is defined, or defining the name.","code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"severity":1,"source":"dart"}],"triggerKind":2}},"clientRequestTime":1719954862175}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":36,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862180}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":37,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862217}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":38,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862268}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":39,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862269}
+[2:14:22 PM] [Analyzer] [Info] <== {"id":17,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 3457
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":35,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"},{"command":{"arguments":[{"action":"dart.fix.insertSemicolon"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":15,"line":4},"start":{"character":14,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"newText":";","range":{"end":{"character":15,"line":4},"start":{"character":15,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":8}}]},"kind":"quickfix.insertSemicolon","title":"Insert ';'"},{"command":{"arguments":[{"action":"dart.fix.create.localVariable"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'object'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":14,"line":4},"start":{"character":8,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"insertTextFormat":2,"newText":"${1:Object?} ${2:object};\n  ","range":{"end":{"character":2,"line":4},"start":{"character":2,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":8}}]},"kind":"quickfix.create.localVariable","title":"Create local variable 'object'"},{"command":{"arguments":[{"action":"dart.fix.create.mixin"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"undefined_identifier","codeDescription":{"href":"https://dart.dev/diagnostics/undefined_identifier"},"message":"Undefined name 'object'.\nTry correcting the name to one that is defined, or defining the name.","range":{"end":{"character":14,"line":4},"start":{"character":8,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"insertTextFormat":2,"newText":"\n\nmixin ${0:object} {\n}","range":{"end":{"character":1,"line":5},"start":{"character":1,"line":5}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":8}}]},"kind":"quickfix.create.mixin","title":"Create mixin 'object'"},{"command":{"arguments":["EXTRACT_METHOD","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",8,100,6,null],"command":"refactor.perform","title":"Extract Method"},"kind":"refactor.extract","title":"Extract Method"},{"command":{"arguments":["EXTRACT_LOCAL_VARIABLE","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",8,100,6,null],"command":"refactor.perform","title":"Extract Local Variable"},"kind":"refactor.extract","title":"Extract Local Variable"}]}Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":36,"jsonrpc":"2.0","result":[]}Content-Length: 161
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":37,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,6,10,0]}}Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":38,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":39,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":17,"result":null,"clientRequestTime":1719954862293}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":40,"method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862918}
+[2:14:22 PM] [Analyzer] [Info] ==> Content-Length: 208
+[2:14:22 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":41,"method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954862918}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:22 PM] [Analyzer] [Info] <== {"id":40,"jsonrpc":"2.0","result":[]}
+[2:14:22 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":41,"jsonrpc":"2.0","result":[]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 278
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":42,"method":"textDocument/inlayHint","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":0,"character":0},"end":{"line":6,"character":0}}},"clientRequestTime":1719954863168}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 984
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":42,"jsonrpc":"2.0","result":[{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":1}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":2}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":3}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":4}}]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 437
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":9},"contentChanges":[{"range":{"start":{"line":4,"character":14},"end":{"line":4,"character":14}},"rangeLength":0,"text":"\""},{"range":{"start":{"line":4,"character":8},"end":{"line":4,"character":8}},"rangeLength":0,"text":"\""}]},"clientRequestTime":1719954863296}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":18,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 335
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":17,"line":4},"start":{"character":16,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":18,"result":null,"clientRequestTime":1719954863304}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 448
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":43,"method":"textDocument/signatureHelp","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":15},"context":{"isRetrigger":true,"triggerKind":3,"activeSignatureHelp":{"signatures":[{"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}],"activeSignature":0,"activeParameter":-1}}},"clientRequestTime":1719954863420}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 767
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":43,"jsonrpc":"2.0","result":{"activeParameter":-1,"activeSignature":0,"signatures":[{"documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}]}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":44,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954863496}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":44,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":45,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954863557}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":45,"jsonrpc":"2.0","result":[]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 325
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":46,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":9},"end":{"line":4,"character":15}},"context":{"diagnostics":[],"triggerKind":2}},"clientRequestTime":1719954863567}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":19,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 2969
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":46,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"},{"command":{"arguments":[{"action":"dart.fix.insertSemicolon"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":17,"line":4},"start":{"character":16,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"newText":";","range":{"end":{"character":17,"line":4},"start":{"character":17,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":9}}]},"kind":"quickfix.insertSemicolon","title":"Insert ';'"},{"command":{"arguments":[{"action":"dart.assist.convert.toMultilineString"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[],"edit":{"documentChanges":[{"edits":[{"newText":"\"\"\"\n","range":{"end":{"character":9,"line":4},"start":{"character":8,"line":4}}},{"newText":"\"\"\"","range":{"end":{"character":16,"line":4},"start":{"character":15,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":9}}]},"kind":"refactor.convert.toMultilineString","title":"Convert to multiline string"},{"command":{"arguments":[{"action":"dart.assist.convert.toSingleQuotedString"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[],"edit":{"documentChanges":[{"edits":[{"newText":"'","range":{"end":{"character":9,"line":4},"start":{"character":8,"line":4}}},{"newText":"'","range":{"end":{"character":16,"line":4},"start":{"character":15,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":9}}]},"kind":"refactor.convert.toSingleQuotedString","title":"Convert to single quoted string"},{"command":{"arguments":["EXTRACT_METHOD","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",9,101,6,null],"command":"refactor.perform","title":"Extract Method"},"kind":"refactor.extract","title":"Extract Method"},{"command":{"arguments":["EXTRACT_LOCAL_VARIABLE","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",9,101,6,null],"command":"refactor.perform","title":"Extract Local Variable"},"kind":"refactor.extract","title":"Extract Local Variable"}]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":19,"result":null,"clientRequestTime":1719954863576}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":47,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954863594}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 161
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":47,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,8,15,0]}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 332
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":10},"contentChanges":[{"range":{"start":{"line":4,"character":9},"end":{"line":4,"character":15}},"rangeLength":6,"text":"H"}]},"clientRequestTime":1719954863635}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":20,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 335
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":12,"line":4},"start":{"character":11,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":20,"result":null,"clientRequestTime":1719954863639}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":48,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954863646}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":48,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 333
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":11},"contentChanges":[{"range":{"start":{"line":4,"character":10},"end":{"line":4,"character":10}},"rangeLength":0,"text":"e"}]},"clientRequestTime":1719954863752}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":21,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 335
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":13,"line":4},"start":{"character":12,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":21,"result":null,"clientRequestTime":1719954863762}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 333
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":12},"contentChanges":[{"range":{"start":{"line":4,"character":11},"end":{"line":4,"character":11}},"rangeLength":0,"text":"l"}]},"clientRequestTime":1719954863862}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":22,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 335
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":14,"line":4},"start":{"character":13,"line":4}},"severity":1,"source":"dart"}],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":22,"result":null,"clientRequestTime":1719954863868}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":49,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954863934}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 161
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":49,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,5,15,0]}}
+[2:14:23 PM] [Analyzer] [Info] ==> Content-Length: 448
+[2:14:23 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":50,"method":"textDocument/signatureHelp","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":12},"context":{"isRetrigger":true,"triggerKind":3,"activeSignatureHelp":{"signatures":[{"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}],"activeSignature":0,"activeParameter":-1}}},"clientRequestTime":1719954863985}
+[2:14:23 PM] [Analyzer] [Info] <== Content-Length: 767
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:23 PM] [Analyzer] [Info] <== {"id":50,"jsonrpc":"2.0","result":{"activeParameter":-1,"activeSignature":0,"signatures":[{"documentation":{"kind":"markdown","value":"Prints an object to the console.\n\nOn the web, `object` is converted to a string and that string is output to\nthe web console using `console.log`.\n\nOn native (non-Web) platforms, `object` is converted to a string and that\nstring is terminated by a line feed (`'\\n'`, U+000A) and written to\n`stdout`. On Windows, the terminating line feed, and any line feeds in the\nstring representation of `object`, are output using the Windows line\nterminator sequence of (`'\\r\\n'`, U+000D + U+000A).\n\nCalls to `print` can be intercepted by [Zone.print]."},"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}]}}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":51,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864062}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:24 PM] [Analyzer] [Info] <== {"id":51,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":52,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864122}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":52,"jsonrpc":"2.0","result":[]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 326
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":53,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":12},"end":{"line":4,"character":12}},"context":{"diagnostics":[],"triggerKind":2}},"clientRequestTime":1719954864127}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":23,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 2974
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":53,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"},{"command":{"arguments":[{"action":"dart.fix.insertSemicolon"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[{"code":"expected_token","message":"Expected to find ';'.","range":{"end":{"character":14,"line":4},"start":{"character":13,"line":4}},"severity":1,"source":"dart"}],"edit":{"documentChanges":[{"edits":[{"newText":";","range":{"end":{"character":14,"line":4},"start":{"character":14,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":12}}]},"kind":"quickfix.insertSemicolon","title":"Insert ';'"},{"command":{"arguments":[{"action":"dart.assist.convert.toMultilineString"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[],"edit":{"documentChanges":[{"edits":[{"newText":"\"\"\"\n","range":{"end":{"character":9,"line":4},"start":{"character":8,"line":4}}},{"newText":"\"\"\"","range":{"end":{"character":13,"line":4},"start":{"character":12,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":12}}]},"kind":"refactor.convert.toMultilineString","title":"Convert to multiline string"},{"command":{"arguments":[{"action":"dart.assist.convert.toSingleQuotedString"}],"command":"dart.logAction","title":"Log Action"},"diagnostics":[],"edit":{"documentChanges":[{"edits":[{"newText":"'","range":{"end":{"character":9,"line":4},"start":{"character":8,"line":4}}},{"newText":"'","range":{"end":{"character":13,"line":4},"start":{"character":12,"line":4}}}],"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":12}}]},"kind":"refactor.convert.toSingleQuotedString","title":"Convert to single quoted string"},{"command":{"arguments":["EXTRACT_METHOD","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",12,104,0,null],"command":"refactor.perform","title":"Extract Method"},"kind":"refactor.extract","title":"Extract Method"},{"command":{"arguments":["EXTRACT_LOCAL_VARIABLE","/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart",12,104,0,null],"command":"refactor.perform","title":"Extract Local Variable"},"kind":"refactor.extract","title":"Extract Local Variable"}]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":23,"result":null,"clientRequestTime":1719954864131}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":54,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864212}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":55,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864213}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":54,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":55,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 208
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":56,"method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864297}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:24 PM] [Analyzer] [Info] <== {"id":56,"jsonrpc":"2.0","result":[]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":57,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864551}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:24 PM] [Analyzer] [Info] <== {"id":57,"jsonrpc":"2.0","result":[]}
+[2:14:24 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:24 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":58,"method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954864864}
+[2:14:24 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:24 PM] [Analyzer] [Info] <== {"id":58,"jsonrpc":"2.0","result":[]}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 359
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","version":13},"contentChanges":[{"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":14}},"rangeLength":14,"text":"  print(\"Hello, World!\");"}]},"clientRequestTime":1719954865087}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":24,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 171
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 173
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishClosingLabels","params":{"labels":[],"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}Content-Length: 770
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"dart/textDocument/publishOutline","params":{"outline":{"children":[{"codeRange":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"element":{"kind":"FUNCTION","name":"main","parameters":"()","range":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}},"returnType":"void"},"range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}}}],"codeRange":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}},"element":{"kind":"COMPILATION_UNIT","name":"<unit>","range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"range":{"end":{"character":0,"line":6},"start":{"character":0,"line":0}}},"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":24,"result":null,"clientRequestTime":1719954865099}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 448
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":59,"method":"textDocument/signatureHelp","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"position":{"line":4,"character":25},"context":{"isRetrigger":true,"triggerKind":3,"activeSignatureHelp":{"signatures":[{"label":"print(Object? object)","parameters":[{"label":"Object? object"}]}],"activeSignature":0,"activeParameter":-1}}},"clientRequestTime":1719954865211}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 39
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":59,"jsonrpc":"2.0","result":null}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":60,"method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865288}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 64
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":60,"jsonrpc":"2.0","result":[{"endLine":5,"startLine":0}]}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":61,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865362}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":61,"jsonrpc":"2.0","result":[]}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 326
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":62,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":4,"character":25},"end":{"line":4,"character":25}},"context":{"diagnostics":[],"triggerKind":2}},"clientRequestTime":1719954865366}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":25,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 740
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":62,"jsonrpc":"2.0","result":[{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.sortMembers","title":"Sort Members"},"kind":"source.sortMembers","title":"Sort Members"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.organizeImports","title":"Organize Imports"},"kind":"source.organizeImports","title":"Organize Imports"},{"command":{"arguments":[{"path":"/home/davidaventimiglia/Scratch/eglot-problem-description/main.dart","autoTriggered":true}],"command":"dart.edit.fixAll","title":"Fix All"},"kind":"source.fixAll","title":"Fix All"}]}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":25,"result":null,"clientRequestTime":1719954865372}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 214
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":63,"method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865386}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 162
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":63,"jsonrpc":"2.0","result":{"data":[0,0,4,1,2048,0,5,4,16,36,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0,1,2,5,16,0,0,6,15,15,0]}}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":64,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865437}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 209
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":65,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865438}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":64,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 252
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":65,"jsonrpc":"2.0","result":[{"deprecated":false,"detail":"()","kind":12,"name":"main","range":{"end":{"character":1,"line":5},"start":{"character":0,"line":0}},"selectionRange":{"end":{"character":9,"line":0},"start":{"character":5,"line":0}}}]}
+[2:14:25 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:25 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":66,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954865854}
+[2:14:25 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:25 PM] [Analyzer] [Info] <== {"id":66,"jsonrpc":"2.0","result":[]}
+[2:14:26 PM] [Analyzer] [Info] ==> Content-Length: 207
+[2:14:26 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":67,"method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954866088}
+[2:14:26 PM] [Analyzer] [Info] ==> Content-Length: 208
+[2:14:26 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":68,"method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954866089}
+[2:14:26 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:26 PM] [Analyzer] [Info] <== {"id":67,"jsonrpc":"2.0","result":[]}Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:26 PM] [Analyzer] [Info] <== {"id":68,"jsonrpc":"2.0","result":[]}
+[2:14:26 PM] [Analyzer] [Info] <== Content-Length: 98
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":26,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[2:14:26 PM] [Analyzer] [Info] ==> Content-Length: 73
+[2:14:26 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":26,"result":null,"clientRequestTime":1719954866308}
+[2:14:26 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[2:14:26 PM] [Analyzer] [Info] ==> Content-Length: 278
+[2:14:26 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":69,"method":"textDocument/inlayHint","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"},"range":{"start":{"line":0,"character":0},"end":{"line":6,"character":0}}},"clientRequestTime":1719954866338}
+[2:14:26 PM] [Analyzer] [Info] <== Content-Length: 984
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":69,"jsonrpc":"2.0","result":[{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":1}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":2}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":3}},{"kind":2,"label":[{"location":{"range":{"end":{"character":25,"line":18},"start":{"character":19,"line":18}},"uri":"file:///usr/lib/dart/lib/core/print.dart"},"value":"object:"}],"paddingRight":true,"position":{"character":8,"line":4}}]}
+[2:14:26 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:26 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":70,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954866836}
+[2:14:26 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[2:14:26 PM] [Analyzer] [Info] <== {"id":70,"jsonrpc":"2.0","result":[]}
+[2:14:27 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:27 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":71,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954867171}
+[2:14:27 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":71,"jsonrpc":"2.0","result":[]}
+[2:14:28 PM] [Analyzer] [Info] ==> Content-Length: 203
+[2:14:28 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":72,"method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///home/davidaventimiglia/Scratch/eglot-problem-description/main.dart"}},"clientRequestTime":1719954868551}
+[2:14:28 PM] [Analyzer] [Info] <== Content-Length: 37
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":72,"jsonrpc":"2.0","result":[]}
+Tue Jul 02 2024 [14:14:28 GMT-0700 (Pacific Daylight Time)] Log file ended
